@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    background-color: whitesmoke;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+
+    
+
+    display: flex;
+  top: 30%;
+  left: 40%;
+    display: grid;
+    position: absolute;
+
+}
+input{
+    margin-top: 20px;
+    width: 200px;
+    border: none;
+    border: 1px solid gray;
+    height: 30px;
+    border-radius: 6px;
+    outline: none;
+}
+
+input::placeholder{
+    position: relative;
+    left: 10px;
+}
+.sendotp{
+    margin-top: 20px;
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.sendotp:hover{
+    background-color: orangered;
+}
+
+.sumbitotp{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: orange;
+}
+.sumbitotp:hover{
+    background-color: orangered;
+}
+
+
+
+.otphere{
+    font-size: 14px;
+    margin-top: 14px;
+    font-weight: 700;
+color: black;
+}
